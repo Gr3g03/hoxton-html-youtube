@@ -28,7 +28,7 @@ header{
     display: grid;
     align-items: center;
     padding: 0.1rem;
-    background-color: rgba(206, 202, 202, 0.445);
+    background-color: rgba(209, 202, 202, 0.329);
 }
 
 
@@ -42,12 +42,6 @@ nav{
 .left-header-items{
     display: grid;
     justify-content: center;
-}
-
-
-
-.main-header-items{
-   
 }
 
 .search{
@@ -93,14 +87,141 @@ nav{
 
 .left-menu{
     grid-area: left-menu;
-    border:  1px solid black;
     display: grid;
-    grid-template-rows: repeat(6, 1fr)
+    grid-template-rows: repeat(6, 1fr);
+    overflow: scroll;
+
 }
 
 .left-menu section{
-    border:  1px solid black;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(87, 85, 85, 0.329);
+}
 
+.guide-section-top ul{
+    list-style: none;
+   
+}
+
+
+.guide-section-grid{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    align-content: center;
+    margin-bottom: 0.5rem;
+    
+}
+
+.guide-section-grid h3{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.guide-section-top a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.guide-bottom-section ul{
+    list-style: none;
+   
+}
+
+.guide-bottom-section{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    align-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.guide-bottom-section h3{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.guide-section-bottom a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.Subscription-info{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    align-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.Subscription ul{
+    list-style: none;
+}
+.sub-text{
+    font-size: 0.8rem;;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.Subscription-info h3{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.Subscription a{
+    text-decoration: none;
+    color: black; 
+}
+
+
+.more-from-youtube__{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    align-content: center;
+    margin-bottom: 0.5rem;
+   
+}
+
+.more-from-youtube ul{
+    list-style: none;
+}
+.more-text{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.more-from-youtube__ h3{
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.more-from-youtube a{
+    text-decoration: none;
+    color: black; 
+}
+
+
+.settings__{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    align-content: center;
+    margin-bottom: 0.5rem;
+   
+}
+
+.settings ul{
+    list-style: none;
+}
+
+
+.settings__ h3{
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.settings a{
+    text-decoration: none;
+    color: black; 
 }
 
 main{

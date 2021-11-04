@@ -79,9 +79,7 @@ nav{
 
 
 
-.main-header-items{
 
-}
 .main-header-items ul{ 
     list-style: none;
     display: grid;
@@ -378,7 +376,7 @@ height: 100vh;
              height: 100vh;
         }
     }
-    
+
 @media  screen and (max-width: 600px ){
     .youtube-logo{
         display: none;
@@ -410,3 +408,21 @@ height: 100vh;
     }
 
 
+.video-main{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+
+}
+
+.video-palyer{
+    display: grid;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+
+.video-section-right{
+    display: grid;
+    border: 1px solid black; 
+    height: 100vh;
+}

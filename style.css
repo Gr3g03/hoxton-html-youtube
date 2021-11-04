@@ -48,7 +48,6 @@ nav{
 }
 
 .hamburger-logo{
-    /* border:  1px solid black; */
     display: grid;
     justify-items: center ;
     margin-top: 0.5rem;
@@ -57,14 +56,12 @@ nav{
 
 .youtube-logo{
     display: grid;
-    /* border:  1px solid black; */
     justify-content: center;
     width: 40px;
     object-fit:contain;    
 }
 
 .yotube-logo__{
-    /* border:  1px solid black; */
     display: grid;
     margin-top: 0.4rem;
     text-align: center;
@@ -325,11 +322,7 @@ overflow: scroll;
 height: 100vh;
 }
 
-.main-videos{
-    /* border:  1px solid black; */
-    
 
-}
 
 .main-videos ul{
     list-style: none;
@@ -390,9 +383,7 @@ height: 100vh;
     .left-menu h2{
         display: none;
     }
-    /* .left-menu{
-        width: 40px;
-    } */
+
     .mini-footer{
         display: none;
     }
@@ -416,7 +407,6 @@ height: 100vh;
 
 .video-palyer{
     display: grid;
-    /* border: 1px solid black; */
     height: 100vh;
 
 }
@@ -424,9 +414,9 @@ height: 100vh;
 
 .video-section-right{
     display: grid;
-    /* border: 1px solid black;  */
     height: 100vh;
     grid-auto-rows: 350px;
+    justify-content: center;
 }
 
 .video-palyer{
@@ -434,23 +424,56 @@ height: 100vh;
     grid-template-rows: 600px 1fr;
     grid-auto-flow: row;
     height: 100vh; 
-    /* border: 1px solid black;  */
    
 }
 
 .video{
     display: grid;
-    /* border: 1px solid black;  */
 }
 
 .video ul{
     list-style: none;
-    text-align: center;
+    padding: 1rem;
 }
+.video h2 {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.video-footer{
+    display: grid;
+    grid-template-columns: 200px 1fr ;
+}
+
+.video h3{
+    display: grid;
+    border: 1px solid black;
+    font-weight: 500;
+    width: 400px;
+    
+}
+.video-footer{
+    display: grid;
+    border: 1px solid black;
+
+
+}
+
+
+.video-footer__ ul{
+    list-style: none;
+    display: inline;
+
+}
+
+.video-footer__ h4{
+    text-align: center;
+    padding-right: 20rem;
+}
+
 
 .Coments{
     display: grid;
-    /* border: 1px solid black; */
    
  
 
@@ -458,7 +481,7 @@ height: 100vh;
 
 .video-section__{
     display: grid;
-    /* border: 1px solid black;  */
+
 
 }
 

@@ -48,6 +48,7 @@ nav{
 }
 
 .hamburger-logo{
+    /* border:  1px solid black; */
     display: grid;
     justify-items: center ;
     margin-top: 0.5rem;
@@ -56,12 +57,14 @@ nav{
 
 .youtube-logo{
     display: grid;
+    /* border:  1px solid black; */
     justify-content: center;
     width: 40px;
     object-fit:contain;    
 }
 
 .yotube-logo__{
+    /* border:  1px solid black; */
     display: grid;
     margin-top: 0.4rem;
     text-align: center;
@@ -318,7 +321,6 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 gap: 0.5rem;
 padding: 1rem;
-overflow: scroll;
 height: 100vh;
 }
 
@@ -328,15 +330,24 @@ height: 100vh;
     list-style: none;
 }
 
+
+.video__content{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}
 .main-videos a{
     text-decoration: none;
-    color: rgba(37, 36, 36, 0.61);
+    color: rgba(3, 3, 3, 0.733);
     
 }
 
 .main-videos li{
     padding: 0.5rem;
 
+}
+
+.avatar-logo{
+    width: 30px;
 }
 
 @media  screen and (max-width: 800px ){

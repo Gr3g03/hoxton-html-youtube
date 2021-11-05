@@ -48,7 +48,6 @@ nav{
 }
 
 .hamburger-logo{
-    /* border:  1px solid black; */
     display: grid;
     justify-items: center ;
     margin-top: 0.5rem;
@@ -57,14 +56,12 @@ nav{
 
 .youtube-logo{
     display: grid;
-    /* border:  1px solid black; */
     justify-content: center;
     width: 40px;
     object-fit:contain;    
 }
 
 .yotube-logo__{
-    /* border:  1px solid black; */
     display: grid;
     margin-top: 0.4rem;
     text-align: center;
@@ -75,9 +72,6 @@ nav{
     text-decoration: none;
     color: black;
 }
-
-
-
 
 
 .main-header-items ul{ 
@@ -114,11 +108,12 @@ nav{
 
 .right-heder-items ul{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-flow: column;
+    grid-template-columns: 40px 40px 40px 70px;
+    /* grid-auto-flow: column; */
     list-style: none;
     justify-content: end;
     align-content: center;
+    gap: 1.2rem;
 }
 
 .sign-in-button{
@@ -129,21 +124,21 @@ nav{
     border-width: 0.1rem; 
 }
 
-.apps{
+/* .apps{
     display: grid;
-}
+} */
 
-.create{
+/* .create{
     display: grid;
-}
+} */
 
-.notification{
+/* .notification{
     display: grid;
-}
+} */
 
-.profile a{
+/* .profile a{
 text-decoration: none;
-}
+} */
 
 
 .left-menu{
@@ -285,18 +280,25 @@ text-decoration: none;
     color: black; 
 }
 
+.mini-footer a {
+    text-decoration: none;
+    color: black ;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
 main{
     grid-area: main;
     background-color: rgba(253, 253, 253, 0.425);
     display: grid;
     grid-template-rows: 40px 1fr;
+    overflow: scroll;
 }
 
 .filter-bar{
-overflow:auto;
 display: grid;
 grid-auto-columns: auto;
-padding: 0.5rem;
+padding: 1rem;
 align-content: center;
 }
 
@@ -322,7 +324,7 @@ grid-template-columns: repeat(4, 1fr);
 gap: 0.5rem;
 padding: 1rem;
 height: 100vh;
-overflow: scroll;
+
 }
 
 
@@ -370,7 +372,10 @@ overflow: scroll;
         padding: 1rem;
         overflow: scroll;
         height: 100vh;
+        width: 100vw;
         }
+
+
         .container{
             display: grid;
             grid-template: 
@@ -383,9 +388,6 @@ overflow: scroll;
     }
 
 @media  screen and (max-width: 600px ){
-    .youtube-logo{
-        display: none;
-    }
     .yotube-logo__{
         display: none;
     }
@@ -411,22 +413,31 @@ overflow: scroll;
     }
 
 
+    @media screen and (max-width: 450px) {
+        .main-contents{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.5rem;
+            padding: 1rem;
+            /* overflow: scroll; */
+            /* height: 100vh;
+            width: 100vw; */
+            }
+    }
+
+
 .video-main{
     display: grid;
     grid-template-columns: 1fr 400px;
+    height: 100vw;
+    overflow: visible;
 
 }
 
-.video-palyer{
-    display: grid;
-    height: 100vh;
-
-}
 
 
 .video-section-right{
     display: grid;
-    height: 100vh;
     grid-auto-rows: 350px;
     justify-content: center;
 }
@@ -439,61 +450,17 @@ overflow: scroll;
    
 }
 
-.video{
-    display: grid;
-}
 
 .video ul{
     list-style: none;
     padding: 1rem;
 }
-.video h2 {
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-}
-
-.video-footer{
-    display: grid;
-    grid-template-columns: 200px 1fr ;
-}
-
-.video h3{
-    display: grid;
-    border: 1px solid black;
-    font-weight: 500;
-    width: 400px;
-    
-}
-.video-footer{
-    display: grid;
-    border: 1px solid black;
 
 
-}
 
-
-.video-footer__ ul{
-    list-style: none;
-    display: inline;
-
-}
-
-.video-footer__ h4{
-    text-align: center;
-    padding-right: 20rem;
-}
-
-
-.Coments{
-    display: grid;
-   
- 
-
-}
 
 .video-section__{
     display: grid;
-
 
 }
 
